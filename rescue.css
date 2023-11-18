@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(58, 58, 58);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: rgb(85, 85, 85);
+    align-items: center;
+    color: white;
+    top: 0;
+    position: sticky;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+
+}
+.nav-links li {
+    list-style: none; 
+    font-weight: bold;
+ 
+}
+.heading h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border: 3px solid white;
+    width: 200px;
+    height: 40px;
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+.nav-links li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #000;
+    transition: width .3s;
+}
+
+
+.nav-links li:hover::after {
+    width: 100%;
+}
+
+
+.main-topic {
+    display: block;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    width: 80%;
+    background-color: rgb(137, 127, 127);
+    justify-self: center;
+    padding: 10px;
+}
+#food_wastepic {
+    /* border: 4px solid white;  */
+    margin-top: 15px;
+    float: right;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    min-height: 150px;
+    min-width: 100px;
+}
+
+.main-topic ul {
+    padding: 20px;
+
+}
+.amount {
+    background-color: rgb(72, 65, 65);
+    width: 70%;
+    border-radius: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    /* border: 4px solid white; */
+    animation-direction: normal;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.goals h1 {
+    margin-top: 10px;
+}
+.goals h4 {
+    font-weight: bold;
+}
+
+
+
+#goalpic {
+    margin-top: -15px;
+    float: right;
+    padding: 0px;
+    height: 300px;
+    width: 450px;
+    margin-right: 0px;
+    
+}
+footer {
+    background-color: rgb(72, 65, 65);
+    width: 100%;
+    align-items: center;
+    text-align:center;
+    margin-top: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: block;
+    /* border: 3px solid white; */
+}
+footer ul {
+    list-style: none;
+}
+.author {
+    float: left;
+    margin: 20px;
+}
+.need-help {
+    float: left;
+    margin: 20px;
+    top: 0;
+    position: relative;
+    left: 50%;
+
+}
+.nav-links ul {
+    text-decoration: none;
+}
+.no-style {
+    text-decoration: none;
+    color: white;
+}
+.need-help ul {
+    padding: 0;
+}
+.short_film h2 {
+    margin-top: 20px;
+    
+
+}
+#video {
+    margin-top: 20px;
+    
+}
+.short_film p {
+
+    position: relative;
+    display: flex;
+    margin: auto;
+    float: right;
+    
+
+}
