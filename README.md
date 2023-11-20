@@ -1,1 +1,1 @@
-# food-wastege
+# food-wastage
